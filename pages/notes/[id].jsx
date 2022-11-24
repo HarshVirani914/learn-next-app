@@ -1,3 +1,5 @@
+import React from "react";
+
 const Note = ({ note }) => {
   return (
     <div sx={{ variant: "containers.page" }}>
@@ -9,7 +11,7 @@ const Note = ({ note }) => {
 export default Note;
 
 export async function getServerSideProps({ params, req, res }) {
-  const response = await fetch(`${process.env.API_URL}api/note/${params.id}`);
+  const response = await fetch(`${process.env.API_URL}/api/note/${params.id}`);
 
   if (!response.ok) {
     res.writeHead(302, { Location: "/notes" });

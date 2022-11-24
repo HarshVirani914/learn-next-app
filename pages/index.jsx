@@ -1,5 +1,4 @@
-import { jsx } from "theme-ui";
-import Link from "next/link";
+import React from "react";
 
 const Pages = ({ content }) => (
   <div sx={{ height: `calc(100vh - 60px)` }}>

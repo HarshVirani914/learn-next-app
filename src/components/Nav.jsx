@@ -1,5 +1,5 @@
-import { jsx } from "theme-ui";
 import Link from "next/link";
+import React from "react";
 
 const Nav = () => (
   <header

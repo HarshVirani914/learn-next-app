@@ -86,13 +86,7 @@ const App: FC<{ folders?: any[]; activeFolder?: any; activeDoc?: any; activeDocs
         <User user={session.user} />
         <Page />
       </Pane>
-      <NewFolderDialog
-        close={() => setIsShown(false)}
-        isShown={newFolderIsShown}
-        onNewFolder={() => {
-          handleNewFolder
-        }}
-      />
+      <NewFolderDialog close={() => setIsShown(false)} isShown={newFolderIsShown} onNewFolder={handleNewFolder} />
     </Pane>
   )
 }

@@ -1,5 +1,4 @@
-# Next.js course
+# Production Grade Next.js course
+> by scott moss and frontendmasters
 
-> Learn Next.js
-
-Follow along with [the course](https://hendrixer.github.io/nextjs-course/)
+[Curriculum](https://production-grade-nextjs.vercel.app)
